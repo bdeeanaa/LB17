@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Дайнеко Ангелина</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+         <style type="text/css">
+            body 
+            {
+                background-color: #CD9797;
+                font-family: 'Oswald', sans-serif;
+            }
+            h1
+            {
+                font-size: 100px;
+                color: #8B0000;
+                position: absolute;
+                top: 0;
+                left: 20;
+            }
+            h1>b, i
+            {
+                color: #643E3E;
+            }
+            h2
+            {
+                font-size: 30px;
+                position: absolute;
+                top:700;
+                left:70;
+            }
+            img
+            {
+                border: 5px solid #8B0000;
+                transition: 0.5s;
+
+            }
+            img:hover
+            {
+                transform: scale(0.9);
+            }
+            .text
+            {
+                color: #8B0000;
+                font-size: 30px;
+            }
+            a{
+                color:#8B0000;
+                line-height: 2;
+                text-decoration:none; 
+                cursor: pointer; 
+                position:absolute; 
+                left: 400;
+                font-size: 80pt;
+            }
+            a:after {
+                background-color: #8B0000;
+                display: block;
+                content: "";
+                height: 2px;
+                width: 0px;
+                left:50%;
+                position:absolute;
+                -webkit-transition: width .3s ease-in-out;
+                -moz-transition: width .3s ease-in-out;
+                transition: width .3s ease-in-out;
+                -webkit-transform:translateX(-50%);
+                -moz-transform:translateX(-50%);
+                transform:translateX(-50%);
+            }
+            a:hover:after,
+            a:focus:after {
+                width: 100%;
+            }
+            table
+            {
+                position: relative;
+                top: 230;
+                left: 250;
+                margin: 30;
+                width: 900;
+            }
+        </style> 
+    </head>
+    <body>
+
+        <a href="index.html">Дайнеко Ангелина</a>
+        <table align="center">
+            <tr>
+                <td><img src="1.jpg" width="450" height="600"></td>
+                <td><div class="text"><i>Дайнеко Ангелина</i> давно считается самой умной девчонкой группы УИР-1. Нужна помощь с высшей математикой? Ангелина разъяснит даже то, что вы не просили</div></td>
+            </tr>
+            <tr>
+                <td align="right"><div class="text">В то же время Ангелина очень веселая, интересная и совершенно не занудная, как множество <i>"Заучек"</i>, к которым вы могли привыкнуть</div></td>
+                <td><img src="2.jpg" width="450" height="600"></td>
+            </tr>
+        </table>
+    </body>
+</html>
